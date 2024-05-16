@@ -1,8 +1,10 @@
 # Titan-Network-一键脚本
 
+---
+
 ## 支持的系统
 
-Ubuntu，debian，centos，fedora
+Ubuntu，centos，推荐使用 Ubuntu
 
 ---
 
