@@ -98,7 +98,7 @@ if [ $additional_container_count -gt 0 ]; then
     
     # 运行容器
 	if [ "$container_num" -eq 1 ]; then
-      echo "Skipping container creation for container_num = 1"
+      echo "docker run -d -v --network host ~/.titanedge$i:/root/.titanedge "$image_name"
     else
       # 运行容器
       docker run -d -v ~/.titanedge$i:/root/.titanedge "$image_name"
